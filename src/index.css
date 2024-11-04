@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    @font-face {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PlusJakartaSans-Medium.ttf);
+    }
+
+    @font-face {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PlusJakartaSans-Bold.ttf);
+    }
+
+    @font-face {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+        src: url(./assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+    }
+}
